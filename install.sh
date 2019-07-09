@@ -10,3 +10,4 @@ install -m 644 armbian-truncate-logs.cron /etc/cron.d/armbian-truncate-logs
 
 rm -rf /var/log.hdd
 rm -rf /var/hdd.log
+mkdir -p /var/log.hdd
